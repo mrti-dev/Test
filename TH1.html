@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bài thực hành 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Danh sách khóa học trực tuyến</h1>
+
+      <div class="image-box">
+        <img src="study.jpg" alt="Khóa học" />
+      </div>
+
+      <p class="note">
+        Khám phá các khóa học mới nhất để nâng cao kỹ năng của bạn!
+      </p>
+    </div>
+
+    <hr class="line" />
+
+    <div class="container1">
+      <h2 class="table-title">Bảng danh sách khóa học</h2>
+
+      <table class="course-table">
+        <thead>
+          <tr>
+            <th rowspan="2">STT</th>
+            <th rowspan="2">Tên khóa học</th>
+            <th colspan="2">Thông tin giảng dạy</th>
+            <th rowspan="2">Thông tin</th>
+            <th rowspan="2">Tác vụ</th>
+          </tr>
+          <tr>
+            <th>Giảng viên</th>
+            <th>Thời lượng</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td class="bold">Lập trình Web</td>
+            <td>Nguyễn Văn A</td>
+            <td rowspan="3">8 tuần</td>
+            <td><a href="#">Chi tiết</a></td>
+            <td><a href="#">Đăng ký</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="bold">Phân tích dữ liệu</td>
+            <td>Trần Thị B</td>
+            <td><a href="#">Chi tiết</a></td>
+            <td><a href="#">Đăng ký</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="bold">Thiết kế đồ họa</td>
+            <td>Phạm Văn C</td>
+            <td><a href="#">Chi tiết</a></td>
+            <td><a href="#" class="color1">Đăng ký</a></td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="6">
+              Liên hệ để biết thêm thông tin về các khóa học đặc biệt
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <hr class="line" />
+
+    <div class="container2">
+      <h2 class="section-title">Nội dung chi tiết khóa học</h2>
+
+      <div class="course-list">
+        <div class="course-item">
+          <div class="course-img-col">
+            <img src="study.jpg" alt="Lập trình Web" />
+          </div>
+
+          <div class="course-content-col">
+            <details>
+              <summary>Lập trình Web</summary>
+              <p>
+                <span class="bold">Lập trình Web</span> cung cấp các kỹ năng cơ
+                bản và nâng cao để phát triển ứng dụng web hiện đại. Khóa học
+                bao gồm:
+              </p>
+
+              <ol>
+                <li>
+                  HTML, CSS, JavaScript: xây dụng giao diện trang web thân thiện
+                  và tối ưu
+                </li>
+                <li>
+                  Phát triển giao diện người dùng: Sử dụng framework như
+                  broadcast để tạo giao diện responsive
+                </li>
+                <li>Backend với PHP, Node.js</li>
+                <li>
+                  Cơ sở dữ liệu:
+                  <ul>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                  </ul>
+                </li>
+              </ol>
+            </details>
+          </div>
+        </div>
+
+        <hr class="line" />
+
+        <div class="course-item">
+          <div class="course-img-col">
+            <img src="study.jpg" alt="Cấu trúc dữ liệu" />
+          </div>
+
+          <div class="course-content-col">
+            <details>
+              <summary>Phân tích dữ liệu</summary>
+              <p>Khóa học giúp rèn tư duy thuật toán và tối ưu code:</p>
+            </details>
+          </div>
+        </div>
+
+        <hr class="line" />
+
+        <div class="course-item">
+          <div class="course-img-col">
+            <img src="study.jpg" alt="Trí tuệ nhân tạo" />
+          </div>
+
+          <div class="course-content-col">
+            <details>
+              <summary>Thiết kế đồ họa</summary>
+              <p>Nhập môn Thiết kế đồ họa</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
